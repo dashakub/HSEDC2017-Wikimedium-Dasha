@@ -1,0 +1,174 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Caption');
+
+section {
+  position: relative;
+}
+
+body {
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+.menubar {
+  z-index: 1;
+  position: fixed;
+  left: 0;
+  top: 0px;
+  height: 60px;
+  width: 1440px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+}
+
+svg {
+  position: fixed;
+  left: 697px;
+  top: 18px;
+  height: 23px;
+  width: 83px;
+}
+
+.block-1 {
+  position: relative;
+  width: 1440px;
+  height: 800px;
+  overflow: hidden;
+  background: #FCFFFF;
+}
+
+.text-1 {
+  position: relative;
+  width: 480px;
+  height: 266px;
+  top: 186px;
+  left: 160px;
+}
+
+.text-1 h1 {
+
+  top: 186px;
+  left: 160px;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 56px;
+}
+
+.text-1  p {
+  top: 326px;
+  left: 160px;
+  padding: 28px 0 0 0;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 21px;
+  line-height: 36px;
+}
+.block-1 img {
+  position: absolute;
+  width: 530px;
+  height: 1200px;
+  left: 750px;
+  top: 233px;
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+}
+
+.block-2 {
+  position: relative;
+  width: 1440px;
+  height: 800px;
+  background-color: #879696;
+}
+
+.text-2 {
+  position: absolute;
+  top: 186px;
+  left: 800px;
+  width: 480px;
+}
+
+.text-2 h1 {
+  top: 186px;
+  left: 800px;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 56px;
+}
+
+.text-2 p {
+  top: 326px;
+  left: 800px;
+  padding: 28px 0 0 0;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 21px;
+  line-height: 36px;
+}
+
+.img-2  {
+  position: absolute;
+  top: 193px;
+  left: 160px;
+}
+
+.img-2 img {
+  top: 193px;
+}
+
+.block-3 {
+  position: relative;
+  top: 1600px;
+  width: 1440px;
+  height: 800px;
+  background: #FCFFFF;
+}
+
+.block-3 h1 {
+  position: relative;
+  top: 1786px;
+  left: 160px;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 56px;
+}
+
+.block-3 p {
+  position: relative;
+  top: 1926px;
+  left: 160px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 21px;
+  line-height: 36px;
+}
+
+.block-3 img {
+  position: relative;
+  width: 759px;
+  height: 403px;
+  top: 1943px;
+  left: 640px;
+}
+
+.block-4 {
+  position: relative;
+  top: 2400px;
+  width: 1440px;
+  height: 800px;
+  background-color: #879696;
+}
+
+.block-4 h1 {
+  position: relative;
+  text-align: center;
+  top: 2586px;
+  left: 284px;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 56px;
+}
+
+.block-4 p {
+  position: relative;
+  text-align: center;
+  top: 2726px;
+  left: 339px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 21px;
+  line-height: 36px;
+}
